@@ -15,7 +15,7 @@ html {
   overflow-x: hidden;
 }
 body {
-  background-color: #1c2e4a url("assets/images/pattern.png");
+  background-color: #1c2e4a url("pattern.png");
   font-family: 'Proxima Nova', Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #ffffff;
   font-size: 14px;
