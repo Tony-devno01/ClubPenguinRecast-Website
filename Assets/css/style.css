@@ -132,6 +132,77 @@ img {
   flex: 1;
 }
 
+.password-button {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  width: 195px;
+  height: 52px;
+  margin-bottom: 10px;
+  padding-left: 27px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url("../images/assets-3@2x.png");
+  background-position: 0% 0%;
+  background-size: 195px;
+  background-repeat: no-repeat;
+  -webkit-transition: background-color 200ms ease;
+  transition: background-color 200ms ease;
+  font-family: Proxima Nova, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.password-button:hover {
+  background-position: 0% -62px;
+}
+
+.unlock-itams-button {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  width: 195px;
+  height: 52px;
+  padding-left: 40px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url("../images/assets-3@2x.png");
+  background-position: 0px -124px;
+  background-size: 195px;
+  font-family: Proxima Nova, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.unlock-itams-button:hover {
+  background-position: 0px -186px;
+}
+
+.text-block {
+  margin-top: -5px;
+}
+
+.button-center {
+  margin-top: -5px;
+}
+
+
 /* Home Styles */
 
 .h-wrapper {
