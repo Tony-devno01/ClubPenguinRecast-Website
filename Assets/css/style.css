@@ -174,3 +174,13 @@
 .wn-list-container ul {
   padding-left: 20px;
 }
+
+#billboards-holder {
+  position: relative;
+  min-height: auto;
+}
+#billboards-holder #billboards {
+  background-color: #036ADE;
+  width: auto;
+  margin: -20px;
+}
